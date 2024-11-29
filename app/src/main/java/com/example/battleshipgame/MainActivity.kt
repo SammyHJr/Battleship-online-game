@@ -14,7 +14,8 @@ class MainActivity : ComponentActivity() {
         FirebaseFirestore.setLoggingEnabled(true)
         enableEdgeToEdge()
         setContent {
-            Navigation()
+            //Navigation()
+            gameBoard()
         }
     }
 }
